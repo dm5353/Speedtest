@@ -28,7 +28,7 @@ def measure_speed(url: str, iterations: int = 10) -> None:
     avg_bytes = total_bytes / iterations
     speed_mbps = (avg_bytes * 8) / (avg_time * 1_000_000)
 
-    print(f"Скорость скачивания: {speed_mbps:.2f} Мбит/с")
+    print(f"\nСкорость скачивания: {speed_mbps:.2f} Мбит/с\n")
 
 
 def main() -> None:
